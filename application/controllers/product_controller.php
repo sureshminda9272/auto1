@@ -21,6 +21,11 @@ class product_controller extends CI_Controller
         $this->load->view('show1_view',$data);
     }
 
+    // to demonstrate purpose created this function
+    public function todemonstrategit(){
+
+    }
+
      public function edit($pid)
      {
         $data['information']=$this->product->show($pid);
