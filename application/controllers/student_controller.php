@@ -18,6 +18,7 @@ class student_controller extends CI_Controller
     {
         $data['show']=$this->student->show($Id);
         //print_r($data);exit;
+        // echo "hello":
         $this->load->view('show_view',$data);
     }
 
